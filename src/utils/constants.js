@@ -1,0 +1,1 @@
+export const TECH_STACK = [{title: 'HTML5', imgSrc: ''}, {}, {}]
