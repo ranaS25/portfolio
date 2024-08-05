@@ -1,7 +1,11 @@
 {
+  "homepage": "https://github.com/ranaS25/ranaS25.github.io",
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "build": "parcel build public/index.html",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.html"
   },
