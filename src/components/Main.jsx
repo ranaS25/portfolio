@@ -4,17 +4,19 @@ import TechStack from './TechStack'
 const Main = () => {
   return (
     <div className='flex flex-col items-center w-full justify-between'>
-      <div className='flex w-full p-10'>
-        <div className='flex flex-col gap-4'>
-          <p className="text-6xl font-semibold text-wrap">Hi, I am Sankit Rana 👋</p>
-          <p className='text-xl'>- Frontend developer</p>
+      <div className='flex flex-col w-full p-4 gap-4'>
+        <div className='flex flex-col gap-4 mx-auto '>
+          <p className="text-2xl font-semibold text-wrap">Hi, I am Sankit Rana 👋</p>
+          <p className='text-base ml-4'>- Frontend developer</p>
         </div>
-        <div className='p-24 bg-slate-500 rounded'>
-          <p>Profiles</p>
-          <p>Linkedin - <span></span></p>
-          <p>Github</p>
-          <p>Email - <span></span></p>
-          <p></p>
+        <div className=' flex flex-col p-6 bg-slate-500 rounded w-full gap-4'>
+          <p className='text-xl font-bold text-white '>Social</p>
+          <div className="flex justify-evenly font-semibold flex-wrap gap-2">
+            <p className='p-2 bg-black/15 rounded'>Linkedin</p>
+            <p className='p-2 bg-black/15 rounded'>Github</p>
+            <p className='p-2 bg-black/15 rounded'>Email</p>
+          </div>
+          
         </div>
       </div>
 

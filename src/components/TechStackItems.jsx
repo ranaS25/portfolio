@@ -11,7 +11,7 @@ const TechStackItems = ({ title, ic, svg }) => {
           className='w-16 h-fit' /> : <ReduxIcon />
       }
       
-      <p className='w-fit text-center text-lg font-bold text-white'>{title}</p>
+      <p className='w-fit text-wrap text-center  font-bold text-white'>{title}</p>
     </div>
   )
 }
