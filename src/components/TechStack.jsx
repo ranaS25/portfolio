@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faCss3, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 
+import { ReduxIcon, TailwindIcon } from '../assets/icons'
+
 
 
 
@@ -23,8 +25,8 @@ const TechStack = () => {
       <TechStackItems title="CSS" ic={faCss3}  svg={ false}/>
       <TechStackItems title="CSS" ic={faJs}  svg={ false}/>
       <TechStackItems title="React Js" ic={faReact}  svg={ false}/>
-      <TechStackItems title="Tailwind CSS"  svg={ true}/>
-      <TechStackItems title="Redux"  svg={ true}/>
+        <TechStackItems title="Tailwind CSS" link={ TailwindIcon} svg={ true} />
+        <TechStackItems title="Redux" link={ReduxIcon} svg={ true}/>
       </div>
       
       </div>
