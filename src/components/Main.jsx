@@ -1,7 +1,9 @@
 import React from 'react'
 import TechStack from './TechStack'
+import Experience from './Experience'
+import Projects from './Projects'
 
-const Main = () => {
+const Main = () => {   
   return (
     <div className='flex flex-col items-center w-full justify-between'>
       <div className='flex flex-col w-full p-4 gap-4 justify-center md:gap-8 '>
@@ -25,8 +27,9 @@ const Main = () => {
         </div>
       </div>
 
-
-      <TechStack/>
+      <Experience/>
+      <TechStack />
+      {/* <Projects/> */}
 
     </div>
   )
